@@ -14,6 +14,30 @@
 		E858215D2A930A0D004B5D85 /* ReDebt_v2Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E858215C2A930A0D004B5D85 /* ReDebt_v2Tests.swift */; };
 		E85821672A930A0E004B5D85 /* ReDebt_v2UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E85821662A930A0E004B5D85 /* ReDebt_v2UITests.swift */; };
 		E85821692A930A0E004B5D85 /* ReDebt_v2UITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E85821682A930A0E004B5D85 /* ReDebt_v2UITestsLaunchTests.swift */; };
+		E85821832A930B36004B5D85 /* PersistenceController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E85821822A930B36004B5D85 /* PersistenceController.swift */; };
+		E85821862A930C59004B5D85 /* Debt.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = E85821842A930C59004B5D85 /* Debt.xcdatamodeld */; };
+		E85821882A930F67004B5D85 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E85821872A930F67004B5D85 /* ViewController.swift */; };
+		E858218A2A930F82004B5D85 /* BubbleNode.swift in Sources */ = {isa = PBXBuildFile; fileRef = E85821892A930F82004B5D85 /* BubbleNode.swift */; };
+		E858218C2A930FCF004B5D85 /* BubbleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E858218B2A930FCF004B5D85 /* BubbleView.swift */; };
+		E858218E2A930FEF004B5D85 /* BubbleScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = E858218D2A930FEF004B5D85 /* BubbleScene.swift */; };
+		E85821902A931031004B5D85 /* SIFloatingCollectionScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = E858218F2A931031004B5D85 /* SIFloatingCollectionScene.swift */; };
+		E85821922A931052004B5D85 /* SIFloatingNode.swift in Sources */ = {isa = PBXBuildFile; fileRef = E85821912A931052004B5D85 /* SIFloatingNode.swift */; };
+		E85821942A9310E1004B5D85 /* CoreDataMainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E85821932A9310E1004B5D85 /* CoreDataMainView.swift */; };
+		E85821962A931111004B5D85 /* NewTransactionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E85821952A931111004B5D85 /* NewTransactionView.swift */; };
+		E85821982A93111D004B5D85 /* DetailTransactionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E85821972A93111D004B5D85 /* DetailTransactionView.swift */; };
+		E858219A2A931137004B5D85 /* AddTransactionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E85821992A931137004B5D85 /* AddTransactionView.swift */; };
+		E858219C2A931142004B5D85 /* SettleDebtView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E858219B2A931142004B5D85 /* SettleDebtView.swift */; };
+		E858219E2A9311E8004B5D85 /* FirstScreenView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E858219D2A9311E8004B5D85 /* FirstScreenView.swift */; };
+		E85821A02A9312AC004B5D85 /* FetchView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E858219F2A9312AC004B5D85 /* FetchView.swift */; };
+		E85821A22A9314AE004B5D85 /* FetchPerson.swift in Sources */ = {isa = PBXBuildFile; fileRef = E85821A12A9314AE004B5D85 /* FetchPerson.swift */; };
+		E85A16212A931A2A0055DF4F /* Person+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = E85A161D2A931A2A0055DF4F /* Person+CoreDataClass.swift */; };
+		E85A16222A931A2A0055DF4F /* Person+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = E85A161E2A931A2A0055DF4F /* Person+CoreDataProperties.swift */; };
+		E85A16232A931A2A0055DF4F /* Transaction+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = E85A161F2A931A2A0055DF4F /* Transaction+CoreDataClass.swift */; };
+		E85A16242A931A2A0055DF4F /* Transaction+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = E85A16202A931A2A0055DF4F /* Transaction+CoreDataProperties.swift */; };
+		E85A16262A931E9D0055DF4F /* MainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E85A16252A931E9D0055DF4F /* MainView.swift */; };
+		E85A16282A931F240055DF4F /* DetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E85A16272A931F240055DF4F /* DetailView.swift */; };
+		E85A162A2A931F4D0055DF4F /* SettleDebt2.swift in Sources */ = {isa = PBXBuildFile; fileRef = E85A16292A931F4D0055DF4F /* SettleDebt2.swift */; };
+		E85A162C2A9325F00055DF4F /* BubbleViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = E85A162B2A9325F00055DF4F /* BubbleViewModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +68,30 @@
 		E85821622A930A0E004B5D85 /* ReDebt_v2UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ReDebt_v2UITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		E85821662A930A0E004B5D85 /* ReDebt_v2UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReDebt_v2UITests.swift; sourceTree = "<group>"; };
 		E85821682A930A0E004B5D85 /* ReDebt_v2UITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReDebt_v2UITestsLaunchTests.swift; sourceTree = "<group>"; };
+		E85821822A930B36004B5D85 /* PersistenceController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PersistenceController.swift; sourceTree = "<group>"; };
+		E85821852A930C59004B5D85 /* Debt.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Debt.xcdatamodel; sourceTree = "<group>"; };
+		E85821872A930F67004B5D85 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		E85821892A930F82004B5D85 /* BubbleNode.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BubbleNode.swift; sourceTree = "<group>"; };
+		E858218B2A930FCF004B5D85 /* BubbleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BubbleView.swift; sourceTree = "<group>"; };
+		E858218D2A930FEF004B5D85 /* BubbleScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BubbleScene.swift; sourceTree = "<group>"; };
+		E858218F2A931031004B5D85 /* SIFloatingCollectionScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SIFloatingCollectionScene.swift; sourceTree = "<group>"; };
+		E85821912A931052004B5D85 /* SIFloatingNode.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SIFloatingNode.swift; sourceTree = "<group>"; };
+		E85821932A9310E1004B5D85 /* CoreDataMainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoreDataMainView.swift; sourceTree = "<group>"; };
+		E85821952A931111004B5D85 /* NewTransactionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewTransactionView.swift; sourceTree = "<group>"; };
+		E85821972A93111D004B5D85 /* DetailTransactionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailTransactionView.swift; sourceTree = "<group>"; };
+		E85821992A931137004B5D85 /* AddTransactionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddTransactionView.swift; sourceTree = "<group>"; };
+		E858219B2A931142004B5D85 /* SettleDebtView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettleDebtView.swift; sourceTree = "<group>"; };
+		E858219D2A9311E8004B5D85 /* FirstScreenView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstScreenView.swift; sourceTree = "<group>"; };
+		E858219F2A9312AC004B5D85 /* FetchView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FetchView.swift; sourceTree = "<group>"; };
+		E85821A12A9314AE004B5D85 /* FetchPerson.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FetchPerson.swift; sourceTree = "<group>"; };
+		E85A161D2A931A2A0055DF4F /* Person+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Person+CoreDataClass.swift"; sourceTree = "<group>"; };
+		E85A161E2A931A2A0055DF4F /* Person+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Person+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		E85A161F2A931A2A0055DF4F /* Transaction+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Transaction+CoreDataClass.swift"; sourceTree = "<group>"; };
+		E85A16202A931A2A0055DF4F /* Transaction+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Transaction+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		E85A16252A931E9D0055DF4F /* MainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainView.swift; sourceTree = "<group>"; };
+		E85A16272A931F240055DF4F /* DetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailView.swift; sourceTree = "<group>"; };
+		E85A16292A931F4D0055DF4F /* SettleDebt2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettleDebt2.swift; sourceTree = "<group>"; };
+		E85A162B2A9325F00055DF4F /* BubbleViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BubbleViewModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -94,8 +142,10 @@
 		E858214A2A930A0D004B5D85 /* ReDebt_v2 */ = {
 			isa = PBXGroup;
 			children = (
-				E858214B2A930A0D004B5D85 /* ReDebt_v2App.swift */,
-				E858214D2A930A0D004B5D85 /* ContentView.swift */,
+				E85821762A930A4E004B5D85 /* ViewModel */,
+				E85821752A930A47004B5D85 /* Model */,
+				E85821772A930A57004B5D85 /* View */,
+				E85821782A930A5F004B5D85 /* Component */,
 				E858214F2A930A0D004B5D85 /* Assets.xcassets */,
 				E85821512A930A0D004B5D85 /* Preview Content */,
 			);
@@ -105,7 +155,11 @@
 		E85821512A930A0D004B5D85 /* Preview Content */ = {
 			isa = PBXGroup;
 			children = (
+				E858214D2A930A0D004B5D85 /* ContentView.swift */,
 				E85821522A930A0D004B5D85 /* Preview Assets.xcassets */,
+				E85821A12A9314AE004B5D85 /* FetchPerson.swift */,
+				E85A16272A931F240055DF4F /* DetailView.swift */,
+				E85A16292A931F4D0055DF4F /* SettleDebt2.swift */,
 			);
 			path = "Preview Content";
 			sourceTree = "<group>";
@@ -125,6 +179,56 @@
 				E85821682A930A0E004B5D85 /* ReDebt_v2UITestsLaunchTests.swift */,
 			);
 			path = ReDebt_v2UITests;
+			sourceTree = "<group>";
+		};
+		E85821752A930A47004B5D85 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				E85A161D2A931A2A0055DF4F /* Person+CoreDataClass.swift */,
+				E85A161E2A931A2A0055DF4F /* Person+CoreDataProperties.swift */,
+				E85A161F2A931A2A0055DF4F /* Transaction+CoreDataClass.swift */,
+				E85A16202A931A2A0055DF4F /* Transaction+CoreDataProperties.swift */,
+				E85821842A930C59004B5D85 /* Debt.xcdatamodeld */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		E85821762A930A4E004B5D85 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				E858218D2A930FEF004B5D85 /* BubbleScene.swift */,
+				E858218F2A931031004B5D85 /* SIFloatingCollectionScene.swift */,
+				E85821912A931052004B5D85 /* SIFloatingNode.swift */,
+				E85821892A930F82004B5D85 /* BubbleNode.swift */,
+				E85821872A930F67004B5D85 /* ViewController.swift */,
+				E85821822A930B36004B5D85 /* PersistenceController.swift */,
+				E85A162B2A9325F00055DF4F /* BubbleViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		E85821772A930A57004B5D85 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				E85A16252A931E9D0055DF4F /* MainView.swift */,
+				E858214B2A930A0D004B5D85 /* ReDebt_v2App.swift */,
+				E858218B2A930FCF004B5D85 /* BubbleView.swift */,
+				E85821932A9310E1004B5D85 /* CoreDataMainView.swift */,
+				E85821952A931111004B5D85 /* NewTransactionView.swift */,
+				E85821972A93111D004B5D85 /* DetailTransactionView.swift */,
+				E85821992A931137004B5D85 /* AddTransactionView.swift */,
+				E858219B2A931142004B5D85 /* SettleDebtView.swift */,
+				E858219D2A9311E8004B5D85 /* FirstScreenView.swift */,
+				E858219F2A9312AC004B5D85 /* FetchView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		E85821782A930A5F004B5D85 /* Component */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Component;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -257,8 +361,32 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E85A162A2A931F4D0055DF4F /* SettleDebt2.swift in Sources */,
+				E85821902A931031004B5D85 /* SIFloatingCollectionScene.swift in Sources */,
+				E85A16282A931F240055DF4F /* DetailView.swift in Sources */,
+				E85821922A931052004B5D85 /* SIFloatingNode.swift in Sources */,
+				E85821862A930C59004B5D85 /* Debt.xcdatamodeld in Sources */,
+				E858219E2A9311E8004B5D85 /* FirstScreenView.swift in Sources */,
+				E85821942A9310E1004B5D85 /* CoreDataMainView.swift in Sources */,
+				E85A16262A931E9D0055DF4F /* MainView.swift in Sources */,
+				E85821832A930B36004B5D85 /* PersistenceController.swift in Sources */,
+				E85821882A930F67004B5D85 /* ViewController.swift in Sources */,
+				E858218E2A930FEF004B5D85 /* BubbleScene.swift in Sources */,
+				E85821A22A9314AE004B5D85 /* FetchPerson.swift in Sources */,
+				E858219A2A931137004B5D85 /* AddTransactionView.swift in Sources */,
+				E85A16242A931A2A0055DF4F /* Transaction+CoreDataProperties.swift in Sources */,
 				E858214E2A930A0D004B5D85 /* ContentView.swift in Sources */,
+				E858219C2A931142004B5D85 /* SettleDebtView.swift in Sources */,
+				E858218A2A930F82004B5D85 /* BubbleNode.swift in Sources */,
+				E85821982A93111D004B5D85 /* DetailTransactionView.swift in Sources */,
+				E85A162C2A9325F00055DF4F /* BubbleViewModel.swift in Sources */,
+				E858218C2A930FCF004B5D85 /* BubbleView.swift in Sources */,
+				E85821A02A9312AC004B5D85 /* FetchView.swift in Sources */,
+				E85A16212A931A2A0055DF4F /* Person+CoreDataClass.swift in Sources */,
+				E85A16222A931A2A0055DF4F /* Person+CoreDataProperties.swift in Sources */,
+				E85A16232A931A2A0055DF4F /* Transaction+CoreDataClass.swift in Sources */,
 				E858214C2A930A0D004B5D85 /* ReDebt_v2App.swift in Sources */,
+				E85821962A931111004B5D85 /* NewTransactionView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -577,6 +705,19 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		E85821842A930C59004B5D85 /* Debt.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				E85821852A930C59004B5D85 /* Debt.xcdatamodel */,
+			);
+			currentVersion = E85821852A930C59004B5D85 /* Debt.xcdatamodel */;
+			path = Debt.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
 	};
 	rootObject = E85821402A930A0D004B5D85 /* Project object */;
 }

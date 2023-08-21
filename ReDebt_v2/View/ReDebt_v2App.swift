@@ -9,9 +9,11 @@ import SwiftUI
 
 @main
 struct ReDebt_v2App: App {
+    let persistenceController = PersistenceController.shared
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            MainView()
+                .environment(\.managedObjectContext, persistenceController.viewContext)
         }
     }
 }
